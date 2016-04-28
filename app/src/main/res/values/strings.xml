@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MowMow</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_header_title">Actions</string>
+    <string name="save_as_ringtone">Save as Ringtone</string>
+    <string name="save_as_notification">Save as Notification</string>
+    <string name="ringtone_saved_as">Ringtone saved as</string>
+    <string name="notification_save_as">Notification saved as</string>
+    <string name="cancel">Cancel</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="alert_dialog_title">Save Complete</string>
+    <string name="alert_dialog_failed">Save Failed</string>
+    <string name="artist_name">Finn </string>
+
+</resources>
