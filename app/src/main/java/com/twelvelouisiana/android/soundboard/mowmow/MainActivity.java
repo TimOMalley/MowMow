@@ -61,12 +61,18 @@ public class MainActivity extends AppCompatActivity implements TaskStatusCallbac
         // Add sounds to the map for easy lookup
         addSound(R.id.finn1, R.raw.finn1);
         addSound(R.id.finn2, R.raw.finn2);
+        addSound(R.id.leah1, R.raw.leah1);
+        addSound(R.id.leah2, R.raw.leah2);
 
         // Register the context menu for long clicks.
         ImageButton finn1Button = (ImageButton) findViewById(R.id.finn1);
         registerForContextMenu(finn1Button);
         ImageButton finn2Button = (ImageButton) findViewById(R.id.finn2);
         registerForContextMenu(finn2Button);
+        ImageButton leah1Button = (ImageButton) findViewById(R.id.leah1);
+        registerForContextMenu(leah1Button);
+        ImageButton leah2Button = (ImageButton) findViewById(R.id.leah2);
+        registerForContextMenu(leah2Button);
 
 	}
 
@@ -119,6 +125,14 @@ public class MainActivity extends AppCompatActivity implements TaskStatusCallbac
 
 	public void onClick2(View view) {
 		playSound(R.raw.finn2);
+    }
+
+    public void onClick3(View view) {
+        playSound(R.raw.leah1);
+    }
+
+    public void onClick4(View view) {
+        playSound(R.raw.leah2);
     }
 
     private void playSound(int resid) {
