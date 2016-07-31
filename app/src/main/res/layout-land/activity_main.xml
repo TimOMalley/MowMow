@@ -10,33 +10,74 @@
     android:weightSum="1"
     android:background="#ffffff">
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    <ImageButton
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/finn1"
-        android:layout_weight="0.50"
-        android:src="@drawable/finn1"
-        android:scaleType="fitXY"
-        android:adjustViewBounds="true"
-        android:onClick="onClick1"
-        android:background="#00ffffff" />
-        <View
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_width="@dimen/activity_horizontal_margin"
+            android:layout_weight="0.50">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/finn1"
+            android:layout_weight="0.50"
+            android:src="@drawable/finn1"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:onClick="onClick1"
             android:background="#00ffffff" />
+            <View
+                android:layout_height="match_parent"
+                android:layout_width="@dimen/activity_horizontal_margin"
+                android:background="#00ffffff" />
 
-    <ImageButton
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/finn2"
-        android:layout_weight="0.50"
-        android:adjustViewBounds="true"
-        android:src="@drawable/finn2"
-        android:scaleType="fitXY"
-        android:onClick="onClick2"
-        android:background="#00ffffff" />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/finn2"
+            android:layout_weight="0.50"
+            android:adjustViewBounds="true"
+            android:src="@drawable/finn2"
+            android:scaleType="fitXY"
+            android:onClick="onClick2"
+            android:background="#00ffffff" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_horizontal_margin"
+            android:background="#00ffffff" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/leah1"
+                android:layout_weight="0.50"
+                android:src="@drawable/leah1"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:onClick="onClick3"
+                android:background="#00ffffff" />
+            <View
+                android:layout_height="match_parent"
+                android:layout_width="@dimen/activity_horizontal_margin"
+                android:background="#00ffffff" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/leah2"
+                android:layout_weight="0.50"
+                android:adjustViewBounds="true"
+                android:src="@drawable/leah2"
+                android:scaleType="fitXY"
+                android:onClick="onClick4"
+                android:background="#00ffffff" />
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>
